@@ -1,5 +1,7 @@
 {
   "esversion": 8,
   "node": true,
-  "asi": true
+  "asi": true,
+  "sub": true,
+  "-W069": false
 }

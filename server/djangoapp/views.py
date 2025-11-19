@@ -91,7 +91,7 @@ def get_dealer_reviews(request, dealer_id):
     endpoint = f"/fetchReviews/dealer/{dealer_id}"
     reviews = get_request(endpoint)
 
-    # Analyze sentiment for each review (skip if sentiment analyzer not available)
+    # Analyze sentiment for each review 
     for review_detail in reviews:
         try:
             analyze_review_sentiments(review_detail['review'])
