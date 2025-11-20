@@ -24,7 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = (
     'django-insecure-ccow$tx_=9%dxu4(0%^(z%nx32#s@(zt9$ih@)5154yny)wn-0'
-)# SECURITY WARNING: don't run with debug turned on in production!
+)
+
+# SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = [
@@ -124,8 +126,6 @@ AUTH_PASSWORD_VALIDATORS = [
         ),
     },
 ]
-
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
